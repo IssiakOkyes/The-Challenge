@@ -1,0 +1,438 @@
+
+ *{
+	margin: 0;
+	padding: 0;
+} 
+
+body{
+  background-color:whitesmoke;
+ 
+  
+}
+
+home div{
+  position:relative;
+	top: 0%;
+}
+.header{
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: #6076b9;
+    
+}
+
+.header h1{
+  color: white;
+}
+.header ul li:hover{
+  color:black;
+}
+
+.header li{
+  color:white;
+}
+
+.nav-links{
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  list-style:none;
+ 
+}
+.nav-links li{
+  color:white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding:10px 45px;
+  border-radius: 24px;
+  initial-letter: 2px;
+  
+}
+.nav-links li:hover{
+  background-color: white;
+  color:#202945;
+}
+
+.main{
+  height: 100px;
+  width: 550px;
+  padding: 60px;
+  margin-left: 400px;
+  margin-top: 120px; 
+
+}
+.main p{
+  font-size: 30px;
+  flex-direction: row;
+  
+}
+.mainj{
+  display: flex;
+  margin-left: 53px;
+  padding-top: 10px;
+}
+
+.mainj li:hover{
+  background: whitesmoke;
+  color: #202945;
+}
+
+.redflag,.intervene{
+  display: flex;
+  border: 1px solid black;
+  color:white;
+  background:#6076b9 ;
+  padding: 10px 30px;
+  justify-content: space-around;
+  margin:20px;
+  list-style: none;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.ab{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  align-items:center;
+}
+h3{
+  align-items: center;
+  margin-left: 70px;
+}
+.content,.oks,.rana{
+  display: block;
+  flex-wrap: wrap;
+  position: relative;
+	width: 300px;
+	height: 300px;
+	justify-content: center;
+	align-items: center;
+	background:#6076b9;
+	margin:40px;
+  color: white;
+  padding: 20px;
+}
+
+.login{
+  height: 250px;
+  width: 300px;
+  padding: 60px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #6076b9;
+  text-align: center;
+  border-radius: 20px;
+  opacity: 7; 
+}
+ 
+.login input[type='text'],input[type='password'],input[type='submit']{
+  padding: 10px;
+  margin: 15px;
+  border-radius: 12px;
+  outline: none ;
+  border:0px;
+}
+
+.login input[type="text"]:hover,.login input[type="password"]:hover,.login input[type="submit"]:hover{
+  border-color: whitesmoke;
+}
+.login input[type="text"]:focus,.login input[type="password"]:focus,.login input[type="submit"]:focus{
+  width: 180px;
+  border-color: white;
+}
+
+.login input[type="submit"]{
+  outline: none;
+}
+
+.login input[type="submit"]:hover{
+  background-color:#415aa5;
+  color:whitesmoke;
+}
+
+.login input[type="submit"]{
+  padding:5px 30px;
+  outline: none;
+  background-color: whitesmoke;
+  cursor: pointer;
+  margin-bottom: 20px; 
+}
+
+.login a{
+  color:white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login p{
+  color: black;
+  margin: 10px 2px 5px 6px; 
+}
+#logout{
+  
+  text-decoration: none;
+  border: 1px solid white;
+  padding:10px 45px;
+  border-radius: 24px;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 90px;
+}
+#logout:hover{
+  color: black;
+  background: whitesmoke;
+  
+}
+
+h1{
+  font-size: 40px;
+  padding: 10px 5px;
+}
+
+.signup h1{
+  font-size: 40px;
+  padding: 10px 5px;
+  color: white;
+}
+
+.signup{
+  height: 450px;
+  width: 300px;
+  padding: 30px 60px 60px 60px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #6076b9;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.signup input[type='text'],input[type='password'],input[type='submit']{
+  padding: 10px;
+  margin: 15px;
+  border-radius: 12px;
+  outline: none ;
+  border: 0px;
+}
+
+.signup input[type="text"]:focus,.signup input[type="password"]:focus,.signup input[type="submit"]:focus{
+
+  width: 180px;
+  border-color: white;
+}
+
+.signup input[type="submit"]{
+  outline: none;
+  background-color: whitesmoke ;
+  color: black;
+  cursor: pointer;
+}
+
+.signup input[type="submit"]:focus{
+  outline: none;
+  background-color:#415aa5;
+  color: white;
+  cursor: pointer;
+}
+
+.signup input[type="submit"]:hover{
+  outline: none;
+  background-color: #415aa5 ;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.signup p{
+  color: black;
+}
+
+.intervene,.report{
+  border-radius: 5px;
+}
+
+.mainj li a:hover{
+  background-color:whitesmoke;
+  color:black; 
+}
+
+fieldset{
+  width: 530px;
+  align-items: center;
+  padding: 20px;
+  margin-left:380px;
+  background-color:#6076b9;
+  border: none;
+  margin-top: 90px;
+}
+
+legend{
+  padding:10px;
+  margin:10px;
+  align-items: center;
+  font-size: 25px;
+  background-color: whitesmoke;
+  color:black;
+}
+
+label{
+  padding-bottom:0px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+fieldset input{
+  margin: 10px 0px;
+  padding: 10px;
+  width: 330px;
+  outline: none;
+}
+
+form p{
+  padding: 10px 0px;
+  color: whitesmoke;
+}
+
+form select{
+  width: 200px;
+  height:30px;
+}
+
+textarea{
+  outline: none;
+}
+
+form input[type='submit']{
+  width: 80px;
+  background-color: whitesmoke;
+  outline: none;
+  cursor: pointer;
+}
+
+form input[type='submit']:hover{
+  width: 80px;
+  background-color: #415aa5;
+  color:b;
+  outline: none;
+  cursor: pointer;
+}
+
+form input[type='file']{
+  color: white;
+}
+home footer{ 
+  justify-content: space-around;
+  align-items: center;
+  min-height: 40vh;
+  color: white;
+  background:#6076b9;
+}
+
+footer h1{
+  margin-left: 20px;
+}
+
+home footer div{
+  color:whitesmoke;
+  border: 1px solid rgb(88, 84, 84)  ;
+  padding-top: 10px;
+  display: flex;
+  margin-left: 190px;
+  margin-right: 190px;
+  border-left: none;
+  border-right: none;
+  margin-top: 40px;
+  opacity: 9;
+}
+
+home footer div p{
+  margin-left: 105px;
+  padding: 15px;
+}
+
+footer p{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 65px;
+}
+
+.edit,.delete{
+  transform: translate(170%,50%);
+  background-color: rgb(192, 85, 85);
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+}
+
+.edit{
+  background-color: rgb(123, 163, 123);
+  padding: 10px 100px;
+}
+
+.delete{
+  padding: 10px 100px;
+  margin-right: 50px;
+}
+
+.admin fieldset {
+  align-items: center;
+  border-radius: 25px;
+  height: 40vh;
+  color:honeydew;
+  padding: 30px;
+  border: none;
+  margin-top: 120px;
+}
+
+.admin fieldset h2{
+  font-size:xx-large;
+  margin-left: 10px;
+}
+
+.admin fieldset h2{
+  margin-left: 150px;
+  padding: 10px 10px 20px 20px;
+}
+
+.admin fieldset p label{
+  margin-left: 200px; 
+}
+
+input[type='text']{
+  margin-left: 70px;
+  padding: 10px 10px 20px 20px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.admin fieldset button{
+  border: none;
+  border-radius: 5px;
+  margin-left: 195px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.admin fieldset button:hover{
+  background: #415aa5;
+  outline: none;
+  border: none;
+}
+
+
+
+
+
+
+
+
